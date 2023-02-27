@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 
 import { NavBar } from '.'
-import Footer from '.'
+import  Footer  from './Footer'
 
 const Layout = ({ children }) => {
   return (
@@ -23,4 +23,4 @@ const Layout = ({ children }) => {
   )
 }
 
-export default Layout
+export default Layout;
